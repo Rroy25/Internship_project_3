@@ -75,7 +75,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-#js-disabled {
+#js-disabled5 {
   background-color: rgb(254, 123, 123); 
   border: 2px solid rgb(0, 0, 0); 
   text-align: center;
@@ -310,8 +310,6 @@ nav {
 .event__details .section__header {
   margin-bottom: 1rem;
 }
-
-/* Import Google font - Poppins */
 
 .section__container2{
   display: flex;
@@ -759,13 +757,13 @@ nav {
   }
 }
 
-.wrapper2{
+.wrappe{
   position: absolute;
   top: 20px;
-  left : 20px;
-  animation: show_toast2 1s ease forwards;
+  left: 20px;
+  animation: show_toas 1s ease forwards;
 }
-@keyframes show_toast2 {
+@keyframes show_toas {
   0%{
     transform: translateX(-100%);
   }
@@ -776,10 +774,10 @@ nav {
     transform: translateX(20px);
   }
 }
-.wrapper2.hide{
-  animation: hide_toast2 1s ease forwards;
+.wrappe.hide{
+  animation: hide_toas 1s ease forwards;
 }
-@keyframes hide_toast2 {
+@keyframes hide_toas {
   0%{
     transform: translateX(20px);
   }
@@ -792,8 +790,8 @@ nav {
     transform: translateX(-100%);
   }
 }
-.wrapper2 .toast2{
-  background: white;
+.wrappe .toas{
+  background: #fff;
   padding: 20px 15px 20px 20px;
   border-radius: 10px;
   border-left: 5px solid #2ecc71;
@@ -803,14 +801,14 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-.wrapper2 .toast2.offline{
+.wrappe .toas.offline{
   border-color: #ccc;
 }
-.toast2 .content2{
+.toas .conten{
   display: flex;
   align-items: center;
 }
-.content2 .icon2{
+.conten .ico{
   font-size: 25px;
   color: #fff;
   height: 50px;
@@ -820,21 +818,21 @@ nav {
   border-radius: 50%;
   background: #2ecc71;
 }
-.toast2.offline .content2 .icon2{
+.toas.offline .conten .ico{
   background: #ccc;
 }
-.content2 .details2{
+.conten .detail{
   margin-left: 15px;
 }
-.details2 span{
+.detail span{
   font-size: 20px;
   font-weight: 500;
 }
-.details2 p{
+.detail p{
   color: #878787;
 }
-.toast2 .close-icon{
-  color: #e12121;
+.toas .close-ico{
+  color: #fd0e0e;
   font-size: 23px;
   cursor: pointer;
   height: 40px;
@@ -845,6 +843,6 @@ nav {
   background: #f2f2f2;
   transition: all 0.3s ease;
 }
-.close-icon:hover{
+.close-ico:hover{
   background: #efefef;
 }
